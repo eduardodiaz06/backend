@@ -36,7 +36,7 @@ let producto = new ProductManager()
 producto.addProduct({
     title: "Gata Hidraulica",
     description: "Gata para talleres automotrices",
-    price: 130000,
+    price: 1300000,
     thumbnail: "https://aco.cl/imagenes/productos/047241.jpg", stock: 5
 })
 producto.addProduct({
