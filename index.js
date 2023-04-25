@@ -5,6 +5,10 @@ class ProductManager {
 
     addProduct({ title, description, price, thumbnail, stock }) {
         let id = 0
+        if (!title || !description || !price || !thumbnail || !stock) {
+            console.error("Todos los campos son obligatorios");
+            return;
+          }
         if (this.products.length === 0) {
             id = 1
         } else {
@@ -37,20 +41,23 @@ producto.addProduct({
     title: "Gata Hidraulica",
     description: "Gata para talleres automotrices",
     price: 1300000,
-    thumbnail: "https://aco.cl/imagenes/productos/047241.jpg", stock: 5
+    thumbnail: "https://aco.cl/imagenes/productos/047241.jpg", 
+    stock: 5
 })
 producto.addProduct({
     title: "producto2",
     description: "prueba",
     price: 15000,
-    thumbnail: "https://aco.cl/imagenes/productos/047242.jpg", stock: 3
+    thumbnail: "https://aco.cl/imagenes/productos/047242.jpg", 
+    stock: 3
 })
 
 producto.addProduct({
     title: "producto3",
     description: "prueba",
     price: 12000,
-    thumbnail: "https://aco.cl/imagenes/productos/047243.jpg", stock: 8
+    thumbnail: "https://aco.cl/imagenes/productos/047243.jpg", 
+    //stock: 8
 })
 
 producto.getProduct()
