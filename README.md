@@ -1,9 +1,13 @@
-# Primera Entrega Back
+# Segunda Entrega Back
  
-En este primera entrega se incluye la clase ProductManager.
-Con metodos:
-addProduct (agregar producto al arreglo principal)
-getProduct (devuelve el arreglo con los productos)
-getProductById (para buscar el producto por el id y si no se encuentra que tire un mensaje de Not Found)
+En esta segunda entrega se modifica la clase ProductManager.
+para que gestione un cojunto de productos de un archivo utilizando FS. 
  
+## Modificación de Metodos
 
+Se modifican los metodos para que estos:
+- Agreguen Productos al archivo data.json (addProduct)
+- Busquen productos por ID (getProductById(id))
+- Actulizen alguna caracteristica del producto (updateProduct(id,data))
+- Eliminar productos del archivo. deleteProduct(id)()
+- Mostrar todos los productos (getProducts)
