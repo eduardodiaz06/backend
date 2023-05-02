@@ -37,6 +37,7 @@ class ProductManager {
 }
 
 let producto = new ProductManager()
+
 producto.addProduct({
     title: "Gata Hidraulica",
     description: "Gata para talleres automotrices",
