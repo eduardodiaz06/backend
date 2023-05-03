@@ -1,74 +1,74 @@
 [
-  {
-    "title": "Gata Hidraulica",
-    "description": "Gata para talleres automotrices",
-    "price": 1300000,
-    "thumbnail": "https://aco.cl/imagenes/productos/047241.jpg",
-    "stock": 5,
-    "id": 1
-  },
-  {
-    "title": "Banquillo Mecanico",
-    "description": "BANQUILLOS MECANICOS 3 TONELADAS (PAR) 288-430mm T",
-    "price": 27073,
-    "thumbnail": "https://aco.cl/imagenes/productos/035560.jpg",
-    "stock": 3,
-    "id": 2
-  },
-  {
-    "title": "Pulidora",
-    "description": "PULIDORA 7'; 1600W LP 1018/4/220",
-    "price": 61404,
-    "thumbnail": "https://aco.cl/imagenes/productos/051423.jpg",
-    "stock": 6,
-    "id": 3
-  },
-  {
-    "title": "Rotomartillo",
-    "description": "ROTOMARTILLO SDS PLUS 1050W 4,5 J RM 926M/1/220 K",
-    "price": 74970,
-    "thumbnail": "https://aco.cl/imagenes/productos/055057.jpg",
-    "stock": 9,
-    "id": 4
-  },
-  {
-    "title": "Tronzadora",
-    "description": "TRONZADORA SENSITIVA 14'; 2500W + 3 discos CS814/4",
-    "price": 116382,
-    "thumbnail": "https://aco.cl/imagenes/productos/053790.jpg",
-    "stock": 15,
-    "id": 5
-  },
-  {
-    "title": "Aspiradora",
-    "description": "ASPIRADORA INALAMBRICA 18V 20L SIN BAT A818/0",
-    "price": 68723,
-    "thumbnail": "https://aco.cl/imagenes/productos/054674.jpg",
-    "stock": 20,
-    "id": 6
-  },
-  {
-    "title": "Soldadora",
-    "description": "SOLDADORA INV ARCO MANUAL 140 amp IE 9140/220M",
-    "price": 82110,
-    "thumbnail": "https://aco.cl/imagenes/productos/050363.jpg",
-    "stock": 7,
-    "id": 7
-  },
-  {
-    "title": "Lijadora",
-    "description": "LIJADORA DE BANDA 3X21'; 900W LB 976",
-    "price": 49980,
-    "thumbnail": "https://aco.cl/imagenes/productos/053708.jpg",
-    "stock": 4,
-    "id": 8
-  },
-  {
-    "title": "nombre modificado",
-    "description": "INFLADOR INALAMBRICO USB PARA NEUMATICOS",
-    "price": 55124,
-    "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
-    "stock": 9,
-    "id": 9
-  }
-]
+    {
+      "title": "Gata Hidraulica",
+      "description": "Gata para talleres automotrices",
+      "price": 1300000,
+      "thumbnail": "https://aco.cl/imagenes/productos/047241.jpg",
+      "stock": 5,
+      "id": 1
+    },
+    {
+      "title": "Banquillo Mecanico",
+      "description": "BANQUILLOS MECANICOS 3 TONELADAS (PAR) 288-430mm T",
+      "price": 27073,
+      "thumbnail": "https://aco.cl/imagenes/productos/035560.jpg",
+      "stock": 3,
+      "id": 2
+    },
+    {
+      "title": "Pulidora",
+      "description": "PULIDORA 7'; 1600W LP 1018/4/220",
+      "price": 61404,
+      "thumbnail": "https://aco.cl/imagenes/productos/051423.jpg",
+      "stock": 6,
+      "id": 3
+    },
+    {
+      "title": "Rotomartillo",
+      "description": "ROTOMARTILLO SDS PLUS 1050W 4,5 J RM 926M/1/220 K",
+      "price": 74970,
+      "thumbnail": "https://aco.cl/imagenes/productos/055057.jpg",
+      "stock": 9,
+      "id": 4
+    },
+    {
+      "title": "Tronzadora",
+      "description": "TRONZADORA SENSITIVA 14'; 2500W + 3 discos CS814/4",
+      "price": 116382,
+      "thumbnail": "https://aco.cl/imagenes/productos/053790.jpg",
+      "stock": 15,
+      "id": 5
+    },
+    {
+      "title": "Aspiradora",
+      "description": "ASPIRADORA INALAMBRICA 18V 20L SIN BAT A818/0",
+      "price": 68723,
+      "thumbnail": "https://aco.cl/imagenes/productos/054674.jpg",
+      "stock": 20,
+      "id": 6
+    },
+    {
+      "title": "Soldadora",
+      "description": "SOLDADORA INV ARCO MANUAL 140 amp IE 9140/220M",
+      "price": 82110,
+      "thumbnail": "https://aco.cl/imagenes/productos/050363.jpg",
+      "stock": 7,
+      "id": 7
+    },
+    {
+      "title": "Lijadora",
+      "description": "LIJADORA DE BANDA 3X21'; 900W LB 976",
+      "price": 49980,
+      "thumbnail": "https://aco.cl/imagenes/productos/053708.jpg",
+      "stock": 4,
+      "id": 8
+    },
+    {
+      "title": "nombre modificado",
+      "description": "INFLADOR INALAMBRICO USB PARA NEUMATICOS",
+      "price": 55124,
+      "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
+      "stock": 9,
+      "id": 9
+    }
+  ]
