@@ -20,10 +20,10 @@ class ProductManager {
             return 'data recovered'
         }
     }
-    async addProduct({ title, description, price, thumbnail, stock }) {
+    async addProduct({ title, description,code, price, status,category,stock, thumbnail }) {
         stock = stock ?? 0
         try {
-            let data = { title, description, price, thumbnail, stock }
+            let data = { title, description,code, price, status,category,stock, thumbnail }
             if (this.products.length > 0) {
                 let next_id = this.products[this.products.length - 1].id + 1
                 data.id = next_id

@@ -71,6 +71,27 @@ class CartManager {
 
         }
     }
+
+    async deleteCart(id) {
+        try {
+            let one = this.getCartById(id)
+            if (!one) {
+                console.log('deleteCart: error')
+                return 'deleteCart: error'
+            }
+            this.carts = this.carts.filter(each => each.id !== id)
+            let data_json = JSON.stringify(this.carts, null, 2)
+            await fs.promises.writeFile(this.path, data_json)
+            console.log('deleteCart: done')
+            return 'deleteCart: done'
+        } catch (error) {
+            console.log(error)
+            return 'deleteCart: error'
+        }
+    }
+
+
+    
 }
 
 let cart = new CartManager('./data/carts.json')
@@ -80,6 +101,7 @@ async function manager() {
     //await cart.addCart({ products: { pid: '6', quantity: '1' } })
     //await cart.getCarts()
     //await cart.getCartById(3)
+    //await cart.deleteCart(2)
 
 }
 //manager()
