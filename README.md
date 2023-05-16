@@ -1,13 +1,16 @@
-# Segunda Entrega Back
+# Tercera Entrega Back (Servidor con Express)
  
-En esta segunda entrega se modifica la clase ProductManager.
-para que gestione un cojunto de productos de un archivo utilizando FS. 
+En esta Tercera entrega se creó un servidor basado en express donde se pueden hacer consultas a nuestro archivo de productos y carritos.
  
-## Modificación de Metodos
+## Creacion de endpoints para productos y carritos
 
-Se modifican los metodos para que estos:
-- Agreguen Productos al archivo data.json (addProduct)
-- Busquen productos por ID (getProductById(id))
-- Actulizen alguna caracteristica del producto (updateProduct(id,data))
-- Eliminar productos del archivo. deleteProduct(id)()
-- Mostrar todos los productos (getProducts)
+- GET /api/products
+- GET /api/products/:pid
+- GET /api/carts
+- GET /api/carts/:cid
+
+### Creación de de la Clase CartManager y sus metodos
+
+- addCart (agregar carritos al archivo de datos carts.json)
+- getCarts (mostrar carritos del archivo)
+- getCartById(pid) (mostrar carrito indicado por el ID)

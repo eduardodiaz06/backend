@@ -70,5 +70,40 @@
     "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
     "stock": 9,
     "id": 9
+  },
+  {
+    "title": "producto prueba updated1",
+    "description": "producto prueba",
+    "price": 100000,
+    "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
+    "stock": 1,
+    "id": 10
+  },
+  {
+    "title": "producto prueba2",
+    "description": "producto prueba2",
+    "price": 10000,
+    "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
+    "stock": 1,
+    "id": 11
+  },
+  {
+    "title": "producto prueba3",
+    "description": "producto prueba3",
+    "price": 15000,
+    "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
+    "stock": 1,
+    "id": 12
+  },
+  {
+    "title": "producto prueba updated2",
+    "description": "producto prueba4",
+    "code": "PP004",
+    "price": 15000,
+    "status": true,
+    "category": "categoria de prueba",
+    "stock": 1,
+    "thumbnail": "https://aco.cl/imagenes/productos/055124.jpg",
+    "id": 13
   }
 ]

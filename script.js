@@ -1,4 +1,5 @@
-const fs = require('fs');
+//const fs = require('fs');
+import fs from 'fs'
 
 class ProductManager {
     constructor(path) {
@@ -19,10 +20,10 @@ class ProductManager {
             return 'data recovered'
         }
     }
-    async addProduct({ title, description, price, thumbnail, stock }) {
+    async addProduct({ title, description,code, price, status,category,stock, thumbnail }) {
         stock = stock ?? 0
         try {
-            let data = { title, description, price, thumbnail, stock }
+            let data = { title, description,code, price, status,category,stock, thumbnail }
             if (this.products.length > 0) {
                 let next_id = this.products[this.products.length - 1].id + 1
                 data.id = next_id
@@ -107,9 +108,10 @@ class ProductManager {
         }
     }
 }
+let product = new ProductManager('./data/data.json')
 
 async function manager() {
-    let product = new ProductManager('./data/data.json')
+
     await product.addProduct({
         title: "Gata Hidraulica", description: "Gata para talleres automotrices", price: 1300000,
         thumbnail: "https://aco.cl/imagenes/productos/047241.jpg", stock: 5
@@ -151,11 +153,13 @@ async function manager() {
         thumbnail: "https://aco.cl/imagenes/productos/036151.jpg", stock: 16
     })
     await product.getProductById(9)
-    await product.updateProduct(9,{title:'nombre modificado'})
+    await product.updateProduct(9, { title: 'nombre modificado' })
     await product.deleteProduct(10)
     await product.getProducts()
-    
+
 
 }
 
-manager()
+//manager()
+
+export default product
